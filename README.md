@@ -8,10 +8,7 @@ This is a calculator app build by react library.
 
 ## Built With
 
-- HTML
-- CSS
-- JavaScript
-- Webpacks
+- ReactJS
 
 ## Get Live Demo
 
