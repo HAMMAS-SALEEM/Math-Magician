@@ -3,12 +3,14 @@
 
 import React, { Component } from 'react';
 
+const eventTarget = (event) => console.log(event.target.value);
+
 export default class Button extends Component {
   render() {
     const { btn, className } = this.props;
     return (
       <div className={className}>
-        <input type="button" className={className} value={btn} />
+        <input type="button" onClick={eventTarget} className={className} value={btn} />
       </div>
     );
   }

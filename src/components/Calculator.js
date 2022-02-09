@@ -4,13 +4,14 @@
 import React, { Component } from 'react';
 import Button from './Button';
 import Screen from './Screen';
+import calculate from '../logic/calculate';
 
 export default class Calculator extends Component {
   render() {
     return (
       <>
         <Screen />
-        <Button btn="AC" className="width" />
+        <Button btn="AC" className="width" onclick={calculate()} />
         <Button btn="+/-" className="width" />
         <Button btn="%" className="width" />
         <Button btn="÷" className="operator width" />
