@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(https://www.teahub.io/photos/full/51-518770_maths-pics.jpg);
+}
+
 .calculator-container {
+  border-radius: 5px;
   width: 320px;
   height: 312px;
   margin: 100px auto;
@@ -13,7 +18,9 @@
 }
 
 .screen {
+  border-radius: 5px 5px 0 0;
   padding-top: 20px;
+  padding-right: 3px;
   width: 100%;
   background-color: grey;
   color: aliceblue;
