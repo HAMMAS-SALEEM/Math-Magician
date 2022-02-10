@@ -2,6 +2,9 @@
 
 This is a calculator app build by react library.
 
+![SCREENSHOT](./src/components/images/react-calculator.GIF)
+![SCREENSHOT](./src/components/images/react-calculator-mobile.GIF)
+
 ## Live Demo
 
 [Live Demo]()
@@ -12,7 +15,7 @@ This is a calculator app build by react library.
 
 ## Get Live Demo
 
-<!-- [Live Demo Link](https://hammas-saleem.github.io/ToDoList/) -->
+[Live Demo Link]()
 
 
 ## Clone and review it
