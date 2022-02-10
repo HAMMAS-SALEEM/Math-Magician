@@ -5,9 +5,11 @@ import React, { Component } from 'react';
 
 export default class Screen extends Component {
   render() {
-    const { currVal, operator, next } = this.props;
+    const {
+      screen, currVal, operator, next,
+    } = this.props;
     return (
-      <div className="screen">
+      <div className={screen}>
         {currVal}
         {operator}
         {next}

@@ -10,9 +10,9 @@ export default class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currVal: '0',
+      total: '0',
       next: null,
-      operator: null,
+      operation: null,
     };
   }
 
@@ -21,10 +21,10 @@ export default class Calculator extends Component {
   }
 
   render() {
-    const { currVal, next, operator } = this.state;
+    const { total, next, operation } = this.state;
     return (
       <>
-        <Screen currVal={currVal} operator={operator} next={next} />
+        <Screen screen="screen" currVal={total} operator={operation} next={next} />
         <Button btn="AC" className="width" eventTarget={this.handleClick} />
         <Button btn="+/-" className="width" eventTarget={this.handleClick} />
         <Button btn="%" className="width" eventTarget={this.handleClick} />

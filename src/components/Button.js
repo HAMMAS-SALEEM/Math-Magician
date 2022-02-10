@@ -9,7 +9,7 @@ export default class Button extends Component {
     const { btn, className, eventTarget } = this.props;
     return (
       <div className={className}>
-        <input type="button" onClick={() => eventTarget(btn)} className={className} value={btn} />
+        <button type="button" className={className} onClick={() => eventTarget(btn)}>{btn}</button>
       </div>
     );
   }
