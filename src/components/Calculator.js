@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Button from './Button';
 import Screen from './Screen';
 import calculate from '../logic/calculate';
+import NavLinks from './NavLinks';
 
 const Calculator = () => {
   const [val, setVal] = useState({ total: '0', next: null, operation: null });
@@ -15,6 +16,7 @@ const Calculator = () => {
   const { total, next, operation } = val;
   return (
     <>
+      <NavLinks />
       <Screen screen="screen" currVal={total} operator={operation} next={next} />
       <Button btn="AC" className="width" eventTarget={handleClick} />
       <Button btn="+/-" className="width" eventTarget={handleClick} />

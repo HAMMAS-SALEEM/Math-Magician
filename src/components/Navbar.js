@@ -1,30 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Component } from 'react/cjs/react.production.min';
 import Calculator from './Calculator';
+import Home from './Home';
+import Quote from './Quote';
 
-class Navbar extends Component {
-  static NavLinks() {
-    return (
-      <Routes>
-        <Route path="/" element={this.CalculatorPage} />
-        <Route path="/" element={this.CalculatorPage} />
-        <Route path="/" element={this.CalculatorPage} />
-      </Routes>
-    );
-  }
+const Navbar = () => (
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/" element={<Calculator />} />
+    <Route path="/" element={<Quote />} />
+  </Routes>
+);
 
-  static CalculatorPage() {
-    return (
-      <>
-        <nav>
-          <this.NavLinks />
-        </nav>
-        <div className="calculator-container">
-          <Calculator />
-        </div>
-      </>
-    );
-  }
-}
 export default Navbar;
