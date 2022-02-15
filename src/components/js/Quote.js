@@ -4,10 +4,10 @@ import NavLinks from './NavLinks';
 const Quote = () => (
   <>
     <NavLinks />
-    <h2>
+    <p className="quote-line">
       Mathematics is not about numbers, equations, computations or algorithms: it is about
       understanding. -William Paul Thurston
-    </h2>
+    </p>
   </>
 );
 
