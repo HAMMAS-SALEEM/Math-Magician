@@ -1,3 +1,4 @@
+import '../css/Quote.css';
 import NavLinks from './NavLinks';
 
 const Quote = () => (

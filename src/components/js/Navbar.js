@@ -7,8 +7,8 @@ import Quote from './Quote';
 const Navbar = () => (
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/" element={<Calculator />} />
-    <Route path="/" element={<Quote />} />
+    <Route path="/calculator" element={<Calculator />} />
+    <Route path="/quote" element={<Quote />} />
   </Routes>
 );
 
