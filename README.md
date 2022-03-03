@@ -4,17 +4,13 @@ This is a calculator app build by react library.
 
 ![SCREENSHOT](./src/components/images/react-calculator.GIF)
 
-## Live Demo
-
-[Live Demo]()
-
 ## Built With
 
 - ReactJS
 
 ## Get Live Demo
 
-[Live Demo Link]()
+[Live Demo Netlify Link](https://hammasmath.netlify.app/)
 
 
 ## Clone and review it

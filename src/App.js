@@ -2,14 +2,14 @@
 
 import './App.css';
 import React, { Component } from 'react';
-import Calculator from './components/Calculator';
+import Navbar from './components/js/Navbar';
 
 export default class App extends Component {
   render() {
     return (
-      <div className="calculator-container">
-        <Calculator />
-      </div>
+      <>
+        <Navbar />
+      </>
     );
   }
 }
