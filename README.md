@@ -3,7 +3,6 @@
 This is a calculator app build by react library.
 
 ![SCREENSHOT](./src/components/images/react-calculator.GIF)
-![SCREENSHOT](./src/components/images/react-calculator-mobile.GIF)
 
 ## Live Demo
 
