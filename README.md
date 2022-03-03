@@ -11,7 +11,6 @@ This is a calculator app build by react library.
 
 ## Get Live Demo
 
-[Live Demo Heroku Link](https://hammasmath.herokuapp.com/)
 [Live Demo Netlify Link](https://hammasmath.netlify.app/)
 
 
