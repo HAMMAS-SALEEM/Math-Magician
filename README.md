@@ -8,6 +8,10 @@ This is a calculator app build by react library.
 
 - ReactJS
 
+## Video Walkthrough
+
+[Video Walkthrough of Math Magician Application](https://www.loom.com/share/08a15cee0db840d7b33966dd7a08b599)
+
 ## Get Live Demo
 
 [Live Demo Netlify Link](https://hammasmath.netlify.app/)
