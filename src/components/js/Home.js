@@ -1,9 +1,7 @@
 import '../css/Home.css';
-import NavLinks from './NavLinks';
 
 const Home = () => (
   <>
-    <NavLinks />
     <section className="homepage-content">
       <h2 className="homepage-heading">Welcome to our page!</h2>
       <p className="homepage-paragraph">

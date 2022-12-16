@@ -6,7 +6,6 @@ import React, { useState } from 'react';
 import Button from './Button';
 import Screen from './Screen';
 import calculate from '../../logic/calculate';
-import NavLinks from './NavLinks';
 
 const Calculator = () => {
   const [val, setVal] = useState({ total: '0', next: null, operation: null });
@@ -17,7 +16,6 @@ const Calculator = () => {
   const { total, next, operation } = val;
   return (
     <>
-      <NavLinks />
       <section className="calculator-page-content">
         <p className="calculator-page-heading">Let&apos;s do some mathematics!</p>
         <div className="calculator-container">
