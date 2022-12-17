@@ -30,7 +30,9 @@ header {
   background-color: rgb(255, 98, 150);
   color: #32234a;
   margin: 0 0 12px 0;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: start;
 }
 
 .single-nav-link:hover {
