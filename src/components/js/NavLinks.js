@@ -9,15 +9,15 @@ const NavLinks = () => (
     <h1 className="navbar-heading nav-item-color">Math Magician</h1>
     <nav className="nav-links">
       <Link className="nav-item nav-item-color single-nav-link" to="/">
-        <Home />
+        <Home className="nav-item-icon" />
         <span>Home</span>
       </Link>
       <Link className="nav-item nav-item-color single-nav-link" to="/calculator">
-        <Calculator />
+        <Calculator className="nav-item-icon" />
         <span>Calculator</span>
       </Link>
       <Link className="nav-item nav-item-color single-nav-link" to="/quote">
-        <Quote />
+        <Quote className="nav-item-icon" />
         <span>Quote</span>
       </Link>
     </nav>

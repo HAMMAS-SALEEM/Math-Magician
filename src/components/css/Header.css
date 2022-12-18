@@ -35,6 +35,10 @@ header {
   text-align: start;
 }
 
+.nav-item-icon {
+  margin-right: 5px;
+}
+
 .single-nav-link:hover {
   background-color: rgb(237, 47, 110);
 }
