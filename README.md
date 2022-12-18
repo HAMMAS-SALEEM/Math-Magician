@@ -59,7 +59,8 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Netlify Link](https://hammasmath.netlify.app/)
+- [Video Walkthrough of Math Magician Application](https://www.loom.com/share/08a15cee0db840d7b33966dd7a08b599)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
