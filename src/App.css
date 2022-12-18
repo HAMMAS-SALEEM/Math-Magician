@@ -7,3 +7,7 @@
 /* body {
   background-image: url(https://www.teahub.io/photos/full/51-518770_maths-pics.jpg);
 } */
+
+section {
+  padding: 0 10px 0 180px;
+}
