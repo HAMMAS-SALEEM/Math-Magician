@@ -57,8 +57,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Netlify Link](https://hammasmath.netlify.app/)
 - [Video Walkthrough of Math Magician Application](https://www.loom.com/share/08a15cee0db840d7b33966dd7a08b599)
 
@@ -75,6 +73,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 > Node.js
+
 > Visual Studio Code
 
 ### Setup
